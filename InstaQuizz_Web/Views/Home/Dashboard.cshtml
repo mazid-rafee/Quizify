@@ -1,0 +1,178 @@
+﻿@{
+    ViewData["Title"] = "Dashboard";
+    var generatedQuizzes = ViewBag.GeneratedQuizzes;
+    var takenQuizzes = ViewBag.TakenQuizzes;
+
+    // Helper function to get the first 20 words of a string
+    string GetFirstWords(string text, int wordCount)
+    {
+        if (string.IsNullOrWhiteSpace(text))
+        {
+            return string.Empty;
+        }
+
+        var words = text.Split(' ').Take(wordCount);
+        return string.Join(' ', words) + (words.Count() == wordCount ? "..." : "");
+    }
+}
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>InstaQuizz</title>
+    <link href="~/css/site.css" rel="stylesheet" />
+    <style>
+        form button {
+            width: 100%;
+            height: 56px;
+            border-radius: 5px;
+            border: none;
+            outline: none;
+            background: #626CD6;
+            color: #fff;
+            font-size: 18px;
+            font-weight: 500;
+            text-transform: uppercase;
+            cursor: pointer;
+            margin-bottom: 0px;
+            margin-top: 10px;
+            transition: 0.3s ease;
+        }
+
+        .login_form {
+            margin: 10px;
+            width: 100%;
+            max-width: 1200px;
+            background: #fff;
+            border-radius: 6px;
+            padding: 41px 30px;
+            box-shadow: 0 10px 20px rgb(0 0 0 / 15%);
+        }
+
+        form-group {
+            margin: 10px;
+            padding: 10px;
+        }
+
+        text-area {
+            width: 100%;
+            height: 500px;
+        }
+
+        /* Style for the small buttons */
+        .small-buttons-container {
+            position: absolute;
+            left: 10px;
+            top: 50px;
+        }
+
+        .small-button {
+            display: block;
+            margin-bottom: 10px;
+            width: 90px; /* Set width to make it more squarish */
+            height: 100px; /* Set height to match width */
+            padding: 5px;
+            font-size: 14px;
+            text-align: center;
+            border-radius: 12px; /* Smooth edges */
+            cursor: pointer;
+            background-color: #626CD6; /* Set background color */
+            border: 5px solid white; /* Thick white border */
+            color: white; /* Text color to stand out on background */
+            transition: background-color 0.3s ease, transform 0.2s ease;
+        }
+
+            /* Change background on hover */
+            .small-button:hover {
+                background-color: #5058b3; /* Slightly darker on hover */
+                transform: scale(1.1); /* Button grows slightly on hover */
+            }
+
+        button:hover {
+            background-color: #5058b3; /* Slightly darker on hover */
+            transform: scale(1.1); /* Button grows slightly on hover */
+        }
+    </style>
+</head>
+
+<div class="small-buttons-container">
+    <!-- Two small buttons on the left side -->
+    <button class="small-button" onclick="window.location.href='/Home/Index'">Home</button>
+    <button class="small-button" onclick="window.location.href='/Home/Dashboard'">Dash Board</button>
+    <button class="small-button" onclick="window.location.href='/Home/Logout'">Log Out</button>
+</div>
+
+<div class="container mt-5 login_form">
+    <h2>Welcome to your Dashboard</h2>
+
+    <!-- Section for showing generated quizzes -->
+    <h3>Your Generated Quizes</h3>
+    @if (generatedQuizzes != null && generatedQuizzes.Count > 0)
+    {
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th class="p-3">Quiz Title</th>
+                    <th class="p-3">Description</th>
+                    <th class="p-3">Created At</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var quiz in generatedQuizzes)
+                {
+                    <tr>
+                        <td class="p-3">@quiz.Title</td>
+                        <td class="p-3">@GetFirstWords(quiz.Description, 20)</td>
+                        <td class="p-3">@quiz.CreatedAt</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    }
+    else
+    {
+        <p>You haven't generated any quizzes yet.</p>
+    }
+
+    <!-- Section for showing taken quizzes -->
+    <h3>Your Joined Quizes</h3>
+    @if (takenQuizzes != null && takenQuizzes.Count > 0)
+    {
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th class="p-3">Quiz Title</th>
+                    <th class="p-3">Description</th>
+                    <th class="p-3">Date Taken</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var quiz in takenQuizzes)
+                {
+                    <tr>
+                        <td class="p-3">@quiz.Title</td>
+                        <td class="p-3">@GetFirstWords(quiz.Description, 20)</td>
+                        <td class="p-3">@quiz.CreatedAt</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    }
+    else
+    {
+        <p>You haven't participated in any quizzes yet.</p>
+    }
+</div>
+
+<style>
+    /* Custom styles for table cells */
+    table td {
+        vertical-align: middle; /* Ensures proper alignment of text in the cells */
+    }
+
+    /* Adjusting word wrapping for table */
+    td p {
+        word-wrap: break-word;
+        max-width: 200px; /* Limit max-width to avoid overflow */
+    }
+</style>

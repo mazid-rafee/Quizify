@@ -1,0 +1,158 @@
+C:/Users/Abdullah/Desktop/Source Code/Shellhacks 2024/InstaQuizz/bin/Debug/net6.0/appsettings.Development.json
+C:/Users/Abdullah/Desktop/Source Code/Shellhacks 2024/InstaQuizz/bin/Debug/net6.0/appsettings.json
+C:/Users/Abdullah/Desktop/Source Code/Shellhacks 2024/InstaQuizz/bin/Debug/net6.0/InstaQuizz.staticwebassets.runtime.json
+C:/Users/Abdullah/Desktop/Source Code/Shellhacks 2024/InstaQuizz/bin/Debug/net6.0/InstaQuizz.exe
+C:/Users/Abdullah/Desktop/Source Code/Shellhacks 2024/InstaQuizz/bin/Debug/net6.0/InstaQuizz.deps.json
+C:/Users/Abdullah/Desktop/Source Code/Shellhacks 2024/InstaQuizz/bin/Debug/net6.0/InstaQuizz.runtimeconfig.json
+C:/Users/Abdullah/Desktop/Source Code/Shellhacks 2024/InstaQuizz/bin/Debug/net6.0/InstaQuizz.dll
+C:/Users/Abdullah/Desktop/Source Code/Shellhacks 2024/InstaQuizz/bin/Debug/net6.0/InstaQuizz.pdb
+C:/Users/Abdullah/Desktop/Source Code/Shellhacks 2024/InstaQuizz/obj/Debug/net6.0/InstaQuizz.csproj.AssemblyReference.cache
+C:/Users/Abdullah/Desktop/Source Code/Shellhacks 2024/InstaQuizz/obj/Debug/net6.0/InstaQuizz.GeneratedMSBuildEditorConfig.editorconfig
+C:/Users/Abdullah/Desktop/Source Code/Shellhacks 2024/InstaQuizz/obj/Debug/net6.0/InstaQuizz.AssemblyInfoInputs.cache
+C:/Users/Abdullah/Desktop/Source Code/Shellhacks 2024/InstaQuizz/obj/Debug/net6.0/InstaQuizz.AssemblyInfo.cs
+C:/Users/Abdullah/Desktop/Source Code/Shellhacks 2024/InstaQuizz/obj/Debug/net6.0/InstaQuizz.csproj.CoreCompileInputs.cache
+C:/Users/Abdullah/Desktop/Source Code/Shellhacks 2024/InstaQuizz/obj/Debug/net6.0/InstaQuizz.MvcApplicationPartsAssemblyInfo.cache
+C:/Users/Abdullah/Desktop/Source Code/Shellhacks 2024/InstaQuizz/obj/Debug/net6.0/InstaQuizz.RazorAssemblyInfo.cache
+C:/Users/Abdullah/Desktop/Source Code/Shellhacks 2024/InstaQuizz/obj/Debug/net6.0/InstaQuizz.RazorAssemblyInfo.cs
+C:/Users/Abdullah/Desktop/Source Code/Shellhacks 2024/InstaQuizz/obj/Debug/net6.0/staticwebassets/msbuild.InstaQuizz.Microsoft.AspNetCore.StaticWebAssets.props
+C:/Users/Abdullah/Desktop/Source Code/Shellhacks 2024/InstaQuizz/obj/Debug/net6.0/staticwebassets/msbuild.build.InstaQuizz.props
+C:/Users/Abdullah/Desktop/Source Code/Shellhacks 2024/InstaQuizz/obj/Debug/net6.0/staticwebassets/msbuild.buildMultiTargeting.InstaQuizz.props
+C:/Users/Abdullah/Desktop/Source Code/Shellhacks 2024/InstaQuizz/obj/Debug/net6.0/staticwebassets/msbuild.buildTransitive.InstaQuizz.props
+C:/Users/Abdullah/Desktop/Source Code/Shellhacks 2024/InstaQuizz/obj/Debug/net6.0/staticwebassets.pack.json
+C:/Users/Abdullah/Desktop/Source Code/Shellhacks 2024/InstaQuizz/obj/Debug/net6.0/staticwebassets.build.json
+C:/Users/Abdullah/Desktop/Source Code/Shellhacks 2024/InstaQuizz/obj/Debug/net6.0/staticwebassets.development.json
+C:/Users/Abdullah/Desktop/Source Code/Shellhacks 2024/InstaQuizz/obj/Debug/net6.0/scopedcss/Views/Shared/_Layout.cshtml.rz.scp.css
+C:/Users/Abdullah/Desktop/Source Code/Shellhacks 2024/InstaQuizz/obj/Debug/net6.0/scopedcss/bundle/InstaQuizz.styles.css
+C:/Users/Abdullah/Desktop/Source Code/Shellhacks 2024/InstaQuizz/obj/Debug/net6.0/scopedcss/projectbundle/InstaQuizz.bundle.scp.css
+C:/Users/Abdullah/Desktop/Source Code/Shellhacks 2024/InstaQuizz/obj/Debug/net6.0/InstaQuizz.dll
+C:/Users/Abdullah/Desktop/Source Code/Shellhacks 2024/InstaQuizz/obj/Debug/net6.0/refint/InstaQuizz.dll
+C:/Users/Abdullah/Desktop/Source Code/Shellhacks 2024/InstaQuizz/obj/Debug/net6.0/InstaQuizz.pdb
+C:/Users/Abdullah/Desktop/Source Code/Shellhacks 2024/InstaQuizz/obj/Debug/net6.0/InstaQuizz.genruntimeconfig.cache
+C:/Users/Abdullah/Desktop/Source Code/Shellhacks 2024/InstaQuizz/obj/Debug/net6.0/ref/InstaQuizz.dll
+C:/Users/Abdullah/Desktop/Source Code/Shellhacks 2024/InstaQuizz/bin/Debug/net6.0/Azure.Core.dll
+C:/Users/Abdullah/Desktop/Source Code/Shellhacks 2024/InstaQuizz/bin/Debug/net6.0/Azure.Identity.dll
+C:/Users/Abdullah/Desktop/Source Code/Shellhacks 2024/InstaQuizz/bin/Debug/net6.0/Microsoft.Bcl.AsyncInterfaces.dll
+C:/Users/Abdullah/Desktop/Source Code/Shellhacks 2024/InstaQuizz/bin/Debug/net6.0/Microsoft.Data.SqlClient.dll
+C:/Users/Abdullah/Desktop/Source Code/Shellhacks 2024/InstaQuizz/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.dll
+C:/Users/Abdullah/Desktop/Source Code/Shellhacks 2024/InstaQuizz/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.Abstractions.dll
+C:/Users/Abdullah/Desktop/Source Code/Shellhacks 2024/InstaQuizz/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.Relational.dll
+C:/Users/Abdullah/Desktop/Source Code/Shellhacks 2024/InstaQuizz/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.SqlServer.dll
+C:/Users/Abdullah/Desktop/Source Code/Shellhacks 2024/InstaQuizz/bin/Debug/net6.0/Microsoft.Extensions.Caching.Abstractions.dll
+C:/Users/Abdullah/Desktop/Source Code/Shellhacks 2024/InstaQuizz/bin/Debug/net6.0/Microsoft.Extensions.Caching.Memory.dll
+C:/Users/Abdullah/Desktop/Source Code/Shellhacks 2024/InstaQuizz/bin/Debug/net6.0/Microsoft.Extensions.Configuration.Abstractions.dll
+C:/Users/Abdullah/Desktop/Source Code/Shellhacks 2024/InstaQuizz/bin/Debug/net6.0/Microsoft.Extensions.DependencyInjection.dll
+C:/Users/Abdullah/Desktop/Source Code/Shellhacks 2024/InstaQuizz/bin/Debug/net6.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:/Users/Abdullah/Desktop/Source Code/Shellhacks 2024/InstaQuizz/bin/Debug/net6.0/Microsoft.Extensions.Logging.dll
+C:/Users/Abdullah/Desktop/Source Code/Shellhacks 2024/InstaQuizz/bin/Debug/net6.0/Microsoft.Extensions.Logging.Abstractions.dll
+C:/Users/Abdullah/Desktop/Source Code/Shellhacks 2024/InstaQuizz/bin/Debug/net6.0/Microsoft.Extensions.Options.dll
+C:/Users/Abdullah/Desktop/Source Code/Shellhacks 2024/InstaQuizz/bin/Debug/net6.0/Microsoft.Extensions.Primitives.dll
+C:/Users/Abdullah/Desktop/Source Code/Shellhacks 2024/InstaQuizz/bin/Debug/net6.0/Microsoft.Identity.Client.dll
+C:/Users/Abdullah/Desktop/Source Code/Shellhacks 2024/InstaQuizz/bin/Debug/net6.0/Microsoft.Identity.Client.Extensions.Msal.dll
+C:/Users/Abdullah/Desktop/Source Code/Shellhacks 2024/InstaQuizz/bin/Debug/net6.0/Microsoft.IdentityModel.Abstractions.dll
+C:/Users/Abdullah/Desktop/Source Code/Shellhacks 2024/InstaQuizz/bin/Debug/net6.0/Microsoft.IdentityModel.JsonWebTokens.dll
+C:/Users/Abdullah/Desktop/Source Code/Shellhacks 2024/InstaQuizz/bin/Debug/net6.0/Microsoft.IdentityModel.Logging.dll
+C:/Users/Abdullah/Desktop/Source Code/Shellhacks 2024/InstaQuizz/bin/Debug/net6.0/Microsoft.IdentityModel.Protocols.dll
+C:/Users/Abdullah/Desktop/Source Code/Shellhacks 2024/InstaQuizz/bin/Debug/net6.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:/Users/Abdullah/Desktop/Source Code/Shellhacks 2024/InstaQuizz/bin/Debug/net6.0/Microsoft.IdentityModel.Tokens.dll
+C:/Users/Abdullah/Desktop/Source Code/Shellhacks 2024/InstaQuizz/bin/Debug/net6.0/Microsoft.SqlServer.Server.dll
+C:/Users/Abdullah/Desktop/Source Code/Shellhacks 2024/InstaQuizz/bin/Debug/net6.0/Microsoft.Win32.SystemEvents.dll
+C:/Users/Abdullah/Desktop/Source Code/Shellhacks 2024/InstaQuizz/bin/Debug/net6.0/System.Configuration.ConfigurationManager.dll
+C:/Users/Abdullah/Desktop/Source Code/Shellhacks 2024/InstaQuizz/bin/Debug/net6.0/System.Drawing.Common.dll
+C:/Users/Abdullah/Desktop/Source Code/Shellhacks 2024/InstaQuizz/bin/Debug/net6.0/System.IdentityModel.Tokens.Jwt.dll
+C:/Users/Abdullah/Desktop/Source Code/Shellhacks 2024/InstaQuizz/bin/Debug/net6.0/System.Memory.Data.dll
+C:/Users/Abdullah/Desktop/Source Code/Shellhacks 2024/InstaQuizz/bin/Debug/net6.0/System.Runtime.Caching.dll
+C:/Users/Abdullah/Desktop/Source Code/Shellhacks 2024/InstaQuizz/bin/Debug/net6.0/System.Security.Cryptography.ProtectedData.dll
+C:/Users/Abdullah/Desktop/Source Code/Shellhacks 2024/InstaQuizz/bin/Debug/net6.0/System.Security.Permissions.dll
+C:/Users/Abdullah/Desktop/Source Code/Shellhacks 2024/InstaQuizz/bin/Debug/net6.0/System.Windows.Extensions.dll
+C:/Users/Abdullah/Desktop/Source Code/Shellhacks 2024/InstaQuizz/bin/Debug/net6.0/runtimes/unix/lib/net6.0/Microsoft.Data.SqlClient.dll
+C:/Users/Abdullah/Desktop/Source Code/Shellhacks 2024/InstaQuizz/bin/Debug/net6.0/runtimes/win/lib/net6.0/Microsoft.Data.SqlClient.dll
+C:/Users/Abdullah/Desktop/Source Code/Shellhacks 2024/InstaQuizz/bin/Debug/net6.0/runtimes/win-arm/native/Microsoft.Data.SqlClient.SNI.dll
+C:/Users/Abdullah/Desktop/Source Code/Shellhacks 2024/InstaQuizz/bin/Debug/net6.0/runtimes/win-arm64/native/Microsoft.Data.SqlClient.SNI.dll
+C:/Users/Abdullah/Desktop/Source Code/Shellhacks 2024/InstaQuizz/bin/Debug/net6.0/runtimes/win-x64/native/Microsoft.Data.SqlClient.SNI.dll
+C:/Users/Abdullah/Desktop/Source Code/Shellhacks 2024/InstaQuizz/bin/Debug/net6.0/runtimes/win-x86/native/Microsoft.Data.SqlClient.SNI.dll
+C:/Users/Abdullah/Desktop/Source Code/Shellhacks 2024/InstaQuizz/bin/Debug/net6.0/runtimes/win/lib/net6.0/Microsoft.Win32.SystemEvents.dll
+C:/Users/Abdullah/Desktop/Source Code/Shellhacks 2024/InstaQuizz/bin/Debug/net6.0/runtimes/unix/lib/net6.0/System.Drawing.Common.dll
+C:/Users/Abdullah/Desktop/Source Code/Shellhacks 2024/InstaQuizz/bin/Debug/net6.0/runtimes/win/lib/net6.0/System.Drawing.Common.dll
+C:/Users/Abdullah/Desktop/Source Code/Shellhacks 2024/InstaQuizz/bin/Debug/net6.0/runtimes/win/lib/net6.0/System.Runtime.Caching.dll
+C:/Users/Abdullah/Desktop/Source Code/Shellhacks 2024/InstaQuizz/bin/Debug/net6.0/runtimes/win/lib/net6.0/System.Security.Cryptography.ProtectedData.dll
+C:/Users/Abdullah/Desktop/Source Code/Shellhacks 2024/InstaQuizz/bin/Debug/net6.0/runtimes/win/lib/net6.0/System.Windows.Extensions.dll
+C:/Users/Abdullah/Desktop/Source Code/Shellhacks 2024/InstaQuizz/obj/Debug/net6.0/InstaQuizz.csproj.CopyComplete
+/Users/mazid_rafee/Desktop/insta-quizz-main/InstaQuizz_Web/bin/Debug/net6.0/appsettings.Development.json
+/Users/mazid_rafee/Desktop/insta-quizz-main/InstaQuizz_Web/bin/Debug/net6.0/appsettings.json
+/Users/mazid_rafee/Desktop/insta-quizz-main/InstaQuizz_Web/bin/Debug/net6.0/InstaQuizz.staticwebassets.runtime.json
+/Users/mazid_rafee/Desktop/insta-quizz-main/InstaQuizz_Web/bin/Debug/net6.0/InstaQuizz
+/Users/mazid_rafee/Desktop/insta-quizz-main/InstaQuizz_Web/bin/Debug/net6.0/InstaQuizz.deps.json
+/Users/mazid_rafee/Desktop/insta-quizz-main/InstaQuizz_Web/bin/Debug/net6.0/InstaQuizz.runtimeconfig.json
+/Users/mazid_rafee/Desktop/insta-quizz-main/InstaQuizz_Web/bin/Debug/net6.0/InstaQuizz.dll
+/Users/mazid_rafee/Desktop/insta-quizz-main/InstaQuizz_Web/bin/Debug/net6.0/InstaQuizz.pdb
+/Users/mazid_rafee/Desktop/insta-quizz-main/InstaQuizz_Web/bin/Debug/net6.0/Azure.Core.dll
+/Users/mazid_rafee/Desktop/insta-quizz-main/InstaQuizz_Web/bin/Debug/net6.0/Azure.Identity.dll
+/Users/mazid_rafee/Desktop/insta-quizz-main/InstaQuizz_Web/bin/Debug/net6.0/Microsoft.Bcl.AsyncInterfaces.dll
+/Users/mazid_rafee/Desktop/insta-quizz-main/InstaQuizz_Web/bin/Debug/net6.0/Microsoft.Data.SqlClient.dll
+/Users/mazid_rafee/Desktop/insta-quizz-main/InstaQuizz_Web/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.dll
+/Users/mazid_rafee/Desktop/insta-quizz-main/InstaQuizz_Web/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.Abstractions.dll
+/Users/mazid_rafee/Desktop/insta-quizz-main/InstaQuizz_Web/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.Relational.dll
+/Users/mazid_rafee/Desktop/insta-quizz-main/InstaQuizz_Web/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.SqlServer.dll
+/Users/mazid_rafee/Desktop/insta-quizz-main/InstaQuizz_Web/bin/Debug/net6.0/Microsoft.Extensions.Caching.Abstractions.dll
+/Users/mazid_rafee/Desktop/insta-quizz-main/InstaQuizz_Web/bin/Debug/net6.0/Microsoft.Extensions.Caching.Memory.dll
+/Users/mazid_rafee/Desktop/insta-quizz-main/InstaQuizz_Web/bin/Debug/net6.0/Microsoft.Extensions.Configuration.Abstractions.dll
+/Users/mazid_rafee/Desktop/insta-quizz-main/InstaQuizz_Web/bin/Debug/net6.0/Microsoft.Extensions.DependencyInjection.dll
+/Users/mazid_rafee/Desktop/insta-quizz-main/InstaQuizz_Web/bin/Debug/net6.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll
+/Users/mazid_rafee/Desktop/insta-quizz-main/InstaQuizz_Web/bin/Debug/net6.0/Microsoft.Extensions.Logging.dll
+/Users/mazid_rafee/Desktop/insta-quizz-main/InstaQuizz_Web/bin/Debug/net6.0/Microsoft.Extensions.Logging.Abstractions.dll
+/Users/mazid_rafee/Desktop/insta-quizz-main/InstaQuizz_Web/bin/Debug/net6.0/Microsoft.Extensions.Options.dll
+/Users/mazid_rafee/Desktop/insta-quizz-main/InstaQuizz_Web/bin/Debug/net6.0/Microsoft.Extensions.Primitives.dll
+/Users/mazid_rafee/Desktop/insta-quizz-main/InstaQuizz_Web/bin/Debug/net6.0/Microsoft.Identity.Client.dll
+/Users/mazid_rafee/Desktop/insta-quizz-main/InstaQuizz_Web/bin/Debug/net6.0/Microsoft.Identity.Client.Extensions.Msal.dll
+/Users/mazid_rafee/Desktop/insta-quizz-main/InstaQuizz_Web/bin/Debug/net6.0/Microsoft.IdentityModel.Abstractions.dll
+/Users/mazid_rafee/Desktop/insta-quizz-main/InstaQuizz_Web/bin/Debug/net6.0/Microsoft.IdentityModel.JsonWebTokens.dll
+/Users/mazid_rafee/Desktop/insta-quizz-main/InstaQuizz_Web/bin/Debug/net6.0/Microsoft.IdentityModel.Logging.dll
+/Users/mazid_rafee/Desktop/insta-quizz-main/InstaQuizz_Web/bin/Debug/net6.0/Microsoft.IdentityModel.Protocols.dll
+/Users/mazid_rafee/Desktop/insta-quizz-main/InstaQuizz_Web/bin/Debug/net6.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+/Users/mazid_rafee/Desktop/insta-quizz-main/InstaQuizz_Web/bin/Debug/net6.0/Microsoft.IdentityModel.Tokens.dll
+/Users/mazid_rafee/Desktop/insta-quizz-main/InstaQuizz_Web/bin/Debug/net6.0/Microsoft.SqlServer.Server.dll
+/Users/mazid_rafee/Desktop/insta-quizz-main/InstaQuizz_Web/bin/Debug/net6.0/Microsoft.Win32.SystemEvents.dll
+/Users/mazid_rafee/Desktop/insta-quizz-main/InstaQuizz_Web/bin/Debug/net6.0/System.Configuration.ConfigurationManager.dll
+/Users/mazid_rafee/Desktop/insta-quizz-main/InstaQuizz_Web/bin/Debug/net6.0/System.Drawing.Common.dll
+/Users/mazid_rafee/Desktop/insta-quizz-main/InstaQuizz_Web/bin/Debug/net6.0/System.IdentityModel.Tokens.Jwt.dll
+/Users/mazid_rafee/Desktop/insta-quizz-main/InstaQuizz_Web/bin/Debug/net6.0/System.Memory.Data.dll
+/Users/mazid_rafee/Desktop/insta-quizz-main/InstaQuizz_Web/bin/Debug/net6.0/System.Runtime.Caching.dll
+/Users/mazid_rafee/Desktop/insta-quizz-main/InstaQuizz_Web/bin/Debug/net6.0/System.Security.Cryptography.ProtectedData.dll
+/Users/mazid_rafee/Desktop/insta-quizz-main/InstaQuizz_Web/bin/Debug/net6.0/System.Security.Permissions.dll
+/Users/mazid_rafee/Desktop/insta-quizz-main/InstaQuizz_Web/bin/Debug/net6.0/System.Windows.Extensions.dll
+/Users/mazid_rafee/Desktop/insta-quizz-main/InstaQuizz_Web/bin/Debug/net6.0/runtimes/unix/lib/net6.0/Microsoft.Data.SqlClient.dll
+/Users/mazid_rafee/Desktop/insta-quizz-main/InstaQuizz_Web/bin/Debug/net6.0/runtimes/win/lib/net6.0/Microsoft.Data.SqlClient.dll
+/Users/mazid_rafee/Desktop/insta-quizz-main/InstaQuizz_Web/bin/Debug/net6.0/runtimes/win-arm/native/Microsoft.Data.SqlClient.SNI.dll
+/Users/mazid_rafee/Desktop/insta-quizz-main/InstaQuizz_Web/bin/Debug/net6.0/runtimes/win-arm64/native/Microsoft.Data.SqlClient.SNI.dll
+/Users/mazid_rafee/Desktop/insta-quizz-main/InstaQuizz_Web/bin/Debug/net6.0/runtimes/win-x64/native/Microsoft.Data.SqlClient.SNI.dll
+/Users/mazid_rafee/Desktop/insta-quizz-main/InstaQuizz_Web/bin/Debug/net6.0/runtimes/win-x86/native/Microsoft.Data.SqlClient.SNI.dll
+/Users/mazid_rafee/Desktop/insta-quizz-main/InstaQuizz_Web/bin/Debug/net6.0/runtimes/win/lib/net6.0/Microsoft.Win32.SystemEvents.dll
+/Users/mazid_rafee/Desktop/insta-quizz-main/InstaQuizz_Web/bin/Debug/net6.0/runtimes/unix/lib/net6.0/System.Drawing.Common.dll
+/Users/mazid_rafee/Desktop/insta-quizz-main/InstaQuizz_Web/bin/Debug/net6.0/runtimes/win/lib/net6.0/System.Drawing.Common.dll
+/Users/mazid_rafee/Desktop/insta-quizz-main/InstaQuizz_Web/bin/Debug/net6.0/runtimes/win/lib/net6.0/System.Runtime.Caching.dll
+/Users/mazid_rafee/Desktop/insta-quizz-main/InstaQuizz_Web/bin/Debug/net6.0/runtimes/win/lib/net6.0/System.Security.Cryptography.ProtectedData.dll
+/Users/mazid_rafee/Desktop/insta-quizz-main/InstaQuizz_Web/bin/Debug/net6.0/runtimes/win/lib/net6.0/System.Windows.Extensions.dll
+/Users/mazid_rafee/Desktop/insta-quizz-main/InstaQuizz_Web/obj/Debug/net6.0/InstaQuizz.csproj.AssemblyReference.cache
+/Users/mazid_rafee/Desktop/insta-quizz-main/InstaQuizz_Web/obj/Debug/net6.0/InstaQuizz.GeneratedMSBuildEditorConfig.editorconfig
+/Users/mazid_rafee/Desktop/insta-quizz-main/InstaQuizz_Web/obj/Debug/net6.0/InstaQuizz.AssemblyInfoInputs.cache
+/Users/mazid_rafee/Desktop/insta-quizz-main/InstaQuizz_Web/obj/Debug/net6.0/InstaQuizz.AssemblyInfo.cs
+/Users/mazid_rafee/Desktop/insta-quizz-main/InstaQuizz_Web/obj/Debug/net6.0/InstaQuizz.csproj.CoreCompileInputs.cache
+/Users/mazid_rafee/Desktop/insta-quizz-main/InstaQuizz_Web/obj/Debug/net6.0/InstaQuizz.MvcApplicationPartsAssemblyInfo.cache
+/Users/mazid_rafee/Desktop/insta-quizz-main/InstaQuizz_Web/obj/Debug/net6.0/InstaQuizz.RazorAssemblyInfo.cache
+/Users/mazid_rafee/Desktop/insta-quizz-main/InstaQuizz_Web/obj/Debug/net6.0/InstaQuizz.RazorAssemblyInfo.cs
+/Users/mazid_rafee/Desktop/insta-quizz-main/InstaQuizz_Web/obj/Debug/net6.0/staticwebassets/msbuild.InstaQuizz.Microsoft.AspNetCore.StaticWebAssets.props
+/Users/mazid_rafee/Desktop/insta-quizz-main/InstaQuizz_Web/obj/Debug/net6.0/staticwebassets/msbuild.build.InstaQuizz.props
+/Users/mazid_rafee/Desktop/insta-quizz-main/InstaQuizz_Web/obj/Debug/net6.0/staticwebassets/msbuild.buildMultiTargeting.InstaQuizz.props
+/Users/mazid_rafee/Desktop/insta-quizz-main/InstaQuizz_Web/obj/Debug/net6.0/staticwebassets/msbuild.buildTransitive.InstaQuizz.props
+/Users/mazid_rafee/Desktop/insta-quizz-main/InstaQuizz_Web/obj/Debug/net6.0/staticwebassets.pack.json
+/Users/mazid_rafee/Desktop/insta-quizz-main/InstaQuizz_Web/obj/Debug/net6.0/staticwebassets.build.json
+/Users/mazid_rafee/Desktop/insta-quizz-main/InstaQuizz_Web/obj/Debug/net6.0/staticwebassets.development.json
+/Users/mazid_rafee/Desktop/insta-quizz-main/InstaQuizz_Web/obj/Debug/net6.0/scopedcss/Views/Shared/_Layout.cshtml.rz.scp.css
+/Users/mazid_rafee/Desktop/insta-quizz-main/InstaQuizz_Web/obj/Debug/net6.0/scopedcss/bundle/InstaQuizz.styles.css
+/Users/mazid_rafee/Desktop/insta-quizz-main/InstaQuizz_Web/obj/Debug/net6.0/scopedcss/projectbundle/InstaQuizz.bundle.scp.css
+/Users/mazid_rafee/Desktop/insta-quizz-main/InstaQuizz_Web/obj/Debug/net6.0/InstaQuizz.csproj.CopyComplete
+/Users/mazid_rafee/Desktop/insta-quizz-main/InstaQuizz_Web/obj/Debug/net6.0/InstaQuizz.dll
+/Users/mazid_rafee/Desktop/insta-quizz-main/InstaQuizz_Web/obj/Debug/net6.0/refint/InstaQuizz.dll
+/Users/mazid_rafee/Desktop/insta-quizz-main/InstaQuizz_Web/obj/Debug/net6.0/InstaQuizz.pdb
+/Users/mazid_rafee/Desktop/insta-quizz-main/InstaQuizz_Web/obj/Debug/net6.0/InstaQuizz.genruntimeconfig.cache
+/Users/mazid_rafee/Desktop/insta-quizz-main/InstaQuizz_Web/obj/Debug/net6.0/ref/InstaQuizz.dll

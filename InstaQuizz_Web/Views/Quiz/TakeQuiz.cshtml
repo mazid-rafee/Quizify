@@ -1,0 +1,107 @@
+﻿@model InstaQuiz.Models.ViewModels.TakeQuizViewModel
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>InstaQuizz</title>
+    <link href="~/css/site.css" rel="stylesheet" />
+    <style>
+        form button {
+            width: 100%;
+            height: 56px;
+            border-radius: 5px;
+            border: none;
+            outline: none;
+            background: #626CD6;
+            color: #fff;
+            font-size: 18px;
+            font-weight: 500;
+            text-transform: uppercase;
+            cursor: pointer;
+            margin-bottom: 0px;
+            margin-top: 10px;
+            transition: 0.3s ease;
+        }
+
+        .login_form {
+            margin: 10px;
+            width: 100%;
+            max-width: 1000px;
+            background: #fff;
+            border-radius: 6px;
+            padding: 41px 30px;
+            box-shadow: 0 10px 20px rgb(0 0 0 / 15%);
+        }
+
+        form-group {
+            margin: 10px;
+            padding: 10px;
+        }
+
+        /* Style for the small buttons */
+        .small-buttons-container {
+            position: absolute;
+            left: 10px;
+            top: 50px;
+        }
+
+        .small-button {
+            display: block;
+            margin-bottom: 10px;
+            width: 90px; /* Set width to make it more squarish */
+            height: 100px; /* Set height to match width */
+            padding: 5px;
+            font-size: 14px;
+            text-align: center;
+            border-radius: 12px; /* Smooth edges */
+            cursor: pointer;
+            background-color: #626CD6; /* Set background color */
+            border: 5px solid white; /* Thick white border */
+            color: white; /* Text color to stand out on background */
+            transition: background-color 0.3s ease, transform 0.2s ease;
+        }
+
+            /* Change background on hover */
+            .small-button:hover {
+                background-color: #5058b3; /* Slightly darker on hover */
+                transform: scale(1.1); /* Button grows slightly on hover */
+            }
+
+        button:hover {
+            background-color: #5058b3; /* Slightly darker on hover */
+            transform: scale(1.1); /* Button grows slightly on hover */
+        }
+    </style>
+</head>
+
+<div class="small-buttons-container">
+    <!-- Two small buttons on the left side -->
+    <button class="small-button" onclick="window.location.href='/Home/Index'">Home</button>
+    <button class="small-button" onclick="window.location.href='/Home/Dashboard'">Dash Board</button>
+    <button class="small-button" onclick="window.location.href='/Home/Logout'">Log Out</button>
+</div>
+
+<div class="login_form">
+    <h2>Generated Quiz</h2>
+
+    <form method="post" action="/Quiz/SubmitQuiz">
+        @* Preserve the original prompt for regeneration *@
+        <input type="hidden" name="quizId" value="@Model.Quiz.QuizId" />
+        <input type="hidden" name="participantName" value="@Context.Session.GetString("UserName")" />
+
+        @foreach (var question in Model.Quiz.Questions)
+        {
+            <div class="form-group" style="margin: 10px;">
+                <label>@question.Text</label>
+                <br />
+                <input type="radio" name="selectedAnswers[@question.QuestionId]" value="1" /> @question.Option1<br />
+                <input type="radio" name="selectedAnswers[@question.QuestionId]" value="2" /> @question.Option2<br />
+                <input type="radio" name="selectedAnswers[@question.QuestionId]" value="3" /> @question.Option3<br />
+                <input type="radio" name="selectedAnswers[@question.QuestionId]" value="4" /> @question.Option4<br />
+            </div>
+        }
+
+        <div class="form-group">
+            <button type="submit" class="btn btn-success" name="approve" value="true">Submit Quiz</button>
+        </div>
+    </form>
+</div>

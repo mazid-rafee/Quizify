@@ -1,0 +1,65 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = InstaQuizz
+build_property.RootNamespace = InstaQuizz
+build_property.ProjectDir = /Users/mazid_rafee/Desktop/insta-quizz-main/InstaQuizz_Web/
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = /Users/mazid_rafee/Desktop/insta-quizz-main/InstaQuizz_Web
+build_property._RazorSourceGeneratorDebug = 
+
+[/Users/mazid_rafee/Desktop/insta-quizz-main/InstaQuizz_Web/Views/Home/Dashboard.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9EYXNoYm9hcmQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/mazid_rafee/Desktop/insta-quizz-main/InstaQuizz_Web/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/mazid_rafee/Desktop/insta-quizz-main/InstaQuizz_Web/Views/Home/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9Mb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/mazid_rafee/Desktop/insta-quizz-main/InstaQuizz_Web/Views/Quiz/ApproveQuiz.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUXVpei9BcHByb3ZlUXVpei5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/mazid_rafee/Desktop/insta-quizz-main/InstaQuizz_Web/Views/Quiz/EnterDashboardPasscode.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUXVpei9FbnRlckRhc2hib2FyZFBhc3Njb2RlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/mazid_rafee/Desktop/insta-quizz-main/InstaQuizz_Web/Views/Quiz/EnterPasscode.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUXVpei9FbnRlclBhc3Njb2RlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/mazid_rafee/Desktop/insta-quizz-main/InstaQuizz_Web/Views/Quiz/GenerateQuiz.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUXVpei9HZW5lcmF0ZVF1aXouY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/mazid_rafee/Desktop/insta-quizz-main/InstaQuizz_Web/Views/Quiz/QuizResult.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUXVpei9RdWl6UmVzdWx0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/mazid_rafee/Desktop/insta-quizz-main/InstaQuizz_Web/Views/Quiz/QuizTakerDashboard.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUXVpei9RdWl6VGFrZXJEYXNoYm9hcmQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/mazid_rafee/Desktop/insta-quizz-main/InstaQuizz_Web/Views/Quiz/StartQuiz.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUXVpei9TdGFydFF1aXouY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/mazid_rafee/Desktop/insta-quizz-main/InstaQuizz_Web/Views/Quiz/TakeQuiz.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUXVpei9UYWtlUXVpei5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/mazid_rafee/Desktop/insta-quizz-main/InstaQuizz_Web/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-twu8fzr4m2

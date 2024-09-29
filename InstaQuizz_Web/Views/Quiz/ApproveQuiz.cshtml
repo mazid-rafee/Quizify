@@ -1,0 +1,126 @@
+﻿@model InstaQuiz.Models.Quiz
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>InstaQuizz</title>
+    <link href="~/css/site.css" rel="stylesheet" />
+    <style>
+        form button {
+            width: 49%;
+            height: 56px;
+            border-radius: 5px;
+            border: none;
+            outline: none;
+            background: #626CD6;
+            color: #fff;
+            font-size: 18px;
+            font-weight: 500;
+            text-transform: uppercase;
+            cursor: pointer;
+            margin-bottom: 0px;
+            margin-top: 10px;
+            transition: 0.3s ease;
+        }
+
+        .login_form {
+            margin: 10px;
+            width: 100%;
+            max-width: 1000px;
+            background: #fff;
+            border-radius: 6px;
+            padding: 41px 30px;
+            box-shadow: 0 10px 20px rgb(0 0 0 / 15%);
+        }
+
+        form-group {
+            margin: 10px;
+            padding: 10px;
+        }
+
+        /* Style for the small buttons */
+        .small-buttons-container {
+            position: absolute;
+            left: 10px;
+            top: 50px;
+        }
+
+        .small-button {
+            display: block;
+            margin-bottom: 10px;
+            width: 90px; /* Set width to make it more squarish */
+            height: 100px; /* Set height to match width */
+            padding: 5px;
+            font-size: 14px;
+            text-align: center;
+            border-radius: 12px; /* Smooth edges */
+            cursor: pointer;
+            background-color: #626CD6; /* Set background color */
+            border: 5px solid white; /* Thick white border */
+            color: white; /* Text color to stand out on background */
+            transition: background-color 0.3s ease, transform 0.2s ease;
+        }
+
+            /* Change background on hover */
+            .small-button:hover {
+                background-color: #5058b3; /* Slightly darker on hover */
+                transform: scale(1.1); /* Button grows slightly on hover */
+            }
+
+        button:hover {
+            background-color: #5058b3; /* Slightly darker on hover */
+            transform: scale(1.1); /* Button grows slightly on hover */
+        }
+    </style>
+</head>
+
+<div class="small-buttons-container">
+    <!-- Two small buttons on the left side -->
+    <button class="small-button" onclick="window.location.href='/Home/Index'">Home</button>
+    <button class="small-button" onclick="window.location.href='/Home/Dashboard'">Dash Board</button>
+    <button class="small-button" onclick="window.location.href='/Home/Logout'">Log Out</button>
+</div>
+
+<div class="login_form">
+    <h2>Generated Quiz</h2>
+
+    <form method="post" action="/Quiz/ApproveQuiz">
+        @* Preserve the original prompt for regeneration *@
+        <input type="hidden" name="Description" value="@Model.Description" />
+        <input type="hidden" name="QuizId" value="@Model.QuizId" />
+        <input type="hidden" name="Owner" value="@Context.Session.GetString("UserEmail")" />
+
+        @{
+            // Convert ICollection<Question> to List<Question> for indexed access
+            var questions = Model.Questions.ToList();
+        }
+
+        @for (var i = 0; i < questions.Count; i++)
+        {
+            <div class="form-group" style="margin: 10px;">
+                <label>@questions[i].Text</label>
+                <br />
+
+                <input type="hidden" name="Questions[@i].QuestionId" value="@questions[i].QuestionId" />
+                <input type="hidden" name="Questions[@i].Text" value="@questions[i].Text" />
+
+                @* Hidden inputs to send the options in the POST payload *@
+                <input type="hidden" name="Questions[@i].Option1" value="@questions[i].Option1" />
+                <input type="hidden" name="Questions[@i].Option2" value="@questions[i].Option2" />
+                <input type="hidden" name="Questions[@i].Option3" value="@questions[i].Option3" />
+                <input type="hidden" name="Questions[@i].Option4" value="@questions[i].Option4" />
+                <input type="hidden" name="Questions[@i].CorrectOption" value="@questions[i].CorrectOption" />
+
+                @* Radio buttons for selecting an option *@
+                <input type="radio" name="Questions[@i].SelectedOption" value="1" @(questions[i].CorrectOption == 1 ? "checked" : "")/> @questions[i].Option1<br />
+                <input type="radio" name="Questions[@i].SelectedOption" value="2" @(questions[i].CorrectOption == 2 ? "checked" : "")/> @questions[i].Option2<br />
+                <input type="radio" name="Questions[@i].SelectedOption" value="3" @(questions[i].CorrectOption == 3 ? "checked" : "")/> @questions[i].Option3<br />
+                <input type="radio" name="Questions[@i].SelectedOption" value="4" @(questions[i].CorrectOption == 4 ? "checked" : "")/> @questions[i].Option4<br />
+            </div>
+        }
+
+        <div class="form-group">
+            <button style="float:left;" type="submit" class="btn btn-success" name="approve" value="true">Approve Quiz</button>
+            <button style="float:right;" type="submit" class="btn btn-danger" name="approve" value="false">Regenerate Quiz</button>
+        </div>
+    </form>
+</div>
